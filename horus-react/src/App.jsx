@@ -25,7 +25,7 @@ import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Horus">
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/"                        element={<Home />} />
